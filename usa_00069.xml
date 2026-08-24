@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="ipums-ddi-xslt.xsl"?>
-<codeBook ID="ddi2-05160600-1607-013b-e7da-0242c0a83007-usa_00065.dat-usa.ipums.org" version="2.5" xmlns="ddi:codebook:2_5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="ddi:codebook:2_5 http://www.ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/codebook.xsd">
+<codeBook ID="ddi2-05160600-1607-013b-e7da-0242c0a83007-usa_00069.dat-usa.ipums.org" version="2.5" xmlns="ddi:codebook:2_5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="ddi:codebook:2_5 http://www.ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/codebook.xsd">
   <docDscr>
     <citation>
       <titlStmt>
         <titl>Codebook for an IPUMS USA Data Extract</titl>
-        <subTitl>DDI 2.5 metadata describing the extract file  'usa_00065.dat'</subTitl>
-        <IDNo>ddi2-05160600-1607-013b-e7da-0242c0a83007-usa_00065.dat-usa.ipums.org</IDNo>
+        <subTitl>DDI 2.5 metadata describing the extract file  'usa_00069.dat'</subTitl>
+        <IDNo>ddi2-05160600-1607-013b-e7da-0242c0a83007-usa_00069.dat-usa.ipums.org</IDNo>
       </titlStmt>
       <rspStmt>
         <AuthEnty affiliation="University of Minnesota">IPUMS</AuthEnty>
       </rspStmt>
       <prodStmt>
         <producer abbr="IPUMS" affiliation="University of Minnesota" role="Documentation">IPUMS</producer>
-        <prodDate date="2026-08-22">August 22, 2026</prodDate>
+        <prodDate date="2026-08-24">August 24, 2026</prodDate>
         <prodPlac>IPUMS, 50 Willey Hall, 225 - 19th Avenue South, Minneapolis, MN 55455</prodPlac>
       </prodStmt>
       <distStmt>
@@ -24,14 +24,14 @@
   <stdyDscr>
     <citation>
       <titlStmt>
-        <titl>User Extract usa_00065.dat</titl>
+        <titl>User Extract usa_00069.dat</titl>
       </titlStmt>
       <rspStmt>
         <AuthEnty affiliation="University of Minnesota">IPUMS</AuthEnty>
       </rspStmt>
       <prodStmt>
         <producer abbr="IPUMS" affiliation="University of Minnesota" role="Documentation">IPUMS</producer>
-        <prodDate date="2026-08-22">August 22, 2026</prodDate>
+        <prodDate date="2026-08-24">August 24, 2026</prodDate>
         <prodPlac>IPUMS, 50 Willey Hall, 225 - 19th Avenue South, Minneapolis, MN 55455</prodPlac>
       </prodStmt>
       <distStmt>
@@ -42,32 +42,30 @@
         <serInfo>DOI:10.18128/D010.V16.0</serInfo>
       </serStmt>
       <verStmt>
-        <version date="2026-08-22"/>
+        <version date="2026-08-24"/>
       </verStmt>
     </citation>
     <stdyInfo>
       <subject>
         <topcClas vocab="IPUMS">Technical Variables -- HOUSEHOLD</topcClas>
         <topcClas vocab="IPUMS">Group Quarters Variables -- HOUSEHOLD</topcClas>
-        <topcClas vocab="IPUMS">Economic Characteristic Variables -- HOUSEHOLD</topcClas>
+        <topcClas vocab="IPUMS">Technical Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Work Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Veteran Status Variables -- PERSON</topcClas>
       </subject>
-      <sumDscr ID="sdatref-2552">
-        <timePrd date="1860" event="single">1860</timePrd>
+      <sumDscr ID="sdatref-2595">
+        <timePrd date="1980" event="single">1980</timePrd>
         <nation abbr="us">United States</nation>
       </sumDscr>
-      <sumDscr ID="sdatref-2580">
-        <timePrd date="1940" event="single">1940</timePrd>
+      <sumDscr ID="sdatref-2644">
+        <timePrd date="2000" event="single">2000</timePrd>
         <nation abbr="us">United States</nation>
       </sumDscr>
-      <sumDscr ID="sdatref-2582">
-        <timePrd date="1960" event="single">1960</timePrd>
-        <nation abbr="us">United States</nation>
-      </sumDscr>
-      <notes><![CDATA[Additional notes on a sample that is part of this study:  1860 1%
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  1980 5%
+            Density of the full data file:  5.0%
+            Density of this extract: 5.0%
 ]]></notes>
-      <notes><![CDATA[Additional notes on a sample that is part of this study:  1940 1%
-]]></notes>
-      <notes><![CDATA[Additional notes on a sample that is part of this study:  1960 1%
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  2000 1%
 ]]></notes>
     </stdyInfo>
     <dataAccs>
@@ -97,10 +95,12 @@ The licensing agreement for use of IPUMS USA data requires that users supply us 
         <disclaimer>The user of the data acknowledges that the original collector of the data, the authorized distributor of the data, and the relevant funding agency bear no responsibility for use of the data or for interpretations or inferences based upon such uses.</disclaimer>
       </useStmt>
     </dataAccs>
+    <notes><![CDATA[User-provided description:  Revision of 00066]]></notes>
+    <notes>This extract is a revision of the user's previous extract, ID 36822005.</notes>
   </stdyDscr>
   <fileDscr ID="ExtractData">
     <fileTxt>
-      <fileName>usa_00065.dat</fileName>
+      <fileName>usa_00069.dat</fileName>
       <fileCont>Microdata records</fileCont>
       <fileStrc type="rectangular"/>
       <fileType charset="ISO-8859-1">ISO-8859-1 data file</fileType>
@@ -998,29 +998,238 @@ Group quarters are largely institutions and other group living arrangements, suc
   <concept vocab="IPUMS">Group Quarters Variables -- HOUSEHOLD</concept>
   <varFormat schema="other" type="numeric"/>
 </var>
-<var ID="FARM" dcml="0" files="ExtractData" intrvl="discrete" name="FARM">
-  <location EndPos="55" StartPos="55" width="1"/>
-  <labl>Farm status</labl>
-  <txt><![CDATA[FARM identifies farm households. All group quarters are coded as non-farm, as are all housing units defined as outside the universe for FARM, above.
+<var ID="PERNUM" dcml="0" files="ExtractData" intrvl="contin" name="PERNUM">
+  <location EndPos="58" StartPos="55" width="4"/>
+  <labl>Person number in sample unit</labl>
+  <txt><![CDATA[PERNUM numbers all persons within each household consecutively in the order in which they appear on the original census or survey form. When combined with SAMPLE and SERIAL, PERNUM uniquely identifies each person within the IPUMS.]]></txt>
+  <codInstr><![CDATA[CodesPERNUM is a 4-digit numeric variable which numbers all persons within each household consecutively in the order in which they appear on the original census or survey form. PERNUM specific variable codes for missing, edited, or unidentified observations, observations not applicable (N/A), observations not in universe (NIU), top and bottom value coding, etc. are provided below if applicable by Census year (and data sample if specified).]]></codInstr>
+  <concept vocab="IPUMS">Technical Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="PERWT" dcml="2" files="ExtractData" intrvl="contin" name="PERWT">
+  <location EndPos="68" StartPos="59" width="10"/>
+  <labl>Person weight</labl>
+  <txt><![CDATA[PERWT indicates how many persons in the U.S. population are represented by a given person in an IPUMS sample. 
 
-User caution: Due to the way that IPUMS splits Group Quarters with 60+ residents, some people with missing FARM information have been incorrectly allocated farm status. A fix for this error is underway. In the meantime, users can correct this programmatically by changing the value from FARM=2 to FARM=1 where QFARM=4 and SPLIT=1.]]></txt>
+It is generally a good idea to use PERWT when conducting a person-level analysis of any IPUMS sample. The use of PERWT is optional when analyzing one of the "flat" or unweighted IPUMS samples. Flat IPUMS samples include the 1% samples from 1850-1930, all samples from 1960, 1970, and 1980, the 1% unweighted samples from 1990 and 2000, the 10% 2010 sample, and any of the full count 100% census datasets. PERWT must be used to obtain nationally representative statistics for person-level analyses of any sample other than those.
+
+For further explanation of the sample weights, see "Sample Designs" and "Sample Weights". See also HHWT for a corresponding variable at the household level, and SLWT for a weight variable used with sample-line records in 1940 and 1950.]]></txt>
+  <codInstr><![CDATA[CodesPERWT is a 6-digit numeric variable which indicates how many persons in the U.S. population are represented by a given person in an IPUMS sample and has two implied decimals. For example, a PERWT value of 010461 should be interpreted as 104.61. PERWT specific variable codes for missing, edited, or unidentified observations, observations not applicable (N/A), observations not in universe (NIU), top and bottom value coding, etc. are provided below if applicable by Census year (and data sample if specified).
+
+PERWT Specific Variable Codes]]></codInstr>
+  <concept vocab="IPUMS">Technical Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="EMPSTAT" dcml="0" files="ExtractData" intrvl="discrete" name="EMPSTAT">
+  <location EndPos="69" StartPos="69" width="1"/>
+  <labl>Employment status [general version]</labl>
+  <txt><![CDATA[EMPSTAT indicates whether the respondent was a part of the labor force -- working or seeking work -- and, if so, whether the person was currently unemployed. The second digit preserves additional related information available for some years but not others. See LABFORCE for a dichotomous variable that identifies whether a person participated in the labor force or not and is available for all years in the IPUMS.]]></txt>
   <catgry>
     <catValu>0</catValu>
     <labl>N/A</labl>
   </catgry>
   <catgry>
     <catValu>1</catValu>
-    <labl>Non-Farm</labl>
+    <labl>Employed</labl>
   </catgry>
   <catgry>
     <catValu>2</catValu>
-    <labl>Farm</labl>
+    <labl>Unemployed</labl>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Not in labor force</labl>
   </catgry>
   <catgry>
     <catValu>9</catValu>
-    <labl>Blank/missing</labl>
+    <labl>Unknown/Illegible</labl>
   </catgry>
-  <concept vocab="IPUMS">Economic Characteristic Variables -- HOUSEHOLD</concept>
+  <concept vocab="IPUMS">Work Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="EMPSTATD" dcml="0" files="ExtractData" intrvl="discrete" name="EMPSTATD">
+  <location EndPos="71" StartPos="70" width="2"/>
+  <labl>Employment status [detailed version]</labl>
+  <txt><![CDATA[EMPSTAT indicates whether the respondent was a part of the labor force -- working or seeking work -- and, if so, whether the person was currently unemployed. The second digit preserves additional related information available for some years but not others. See LABFORCE for a dichotomous variable that identifies whether a person participated in the labor force or not and is available for all years in the IPUMS.]]></txt>
+  <catgry>
+    <catValu>00</catValu>
+    <labl>N/A</labl>
+  </catgry>
+  <catgry>
+    <catValu>10</catValu>
+    <labl>At work</labl>
+  </catgry>
+  <catgry>
+    <catValu>11</catValu>
+    <labl>At work, public emerg</labl>
+  </catgry>
+  <catgry>
+    <catValu>12</catValu>
+    <labl>Has job, not working</labl>
+  </catgry>
+  <catgry>
+    <catValu>13</catValu>
+    <labl>Armed forces</labl>
+  </catgry>
+  <catgry>
+    <catValu>14</catValu>
+    <labl>Armed forces--at work</labl>
+  </catgry>
+  <catgry>
+    <catValu>15</catValu>
+    <labl>Armed forces--not at work but with job</labl>
+  </catgry>
+  <catgry>
+    <catValu>20</catValu>
+    <labl>Unemployed</labl>
+  </catgry>
+  <catgry>
+    <catValu>21</catValu>
+    <labl>Unemp, exper worker</labl>
+  </catgry>
+  <catgry>
+    <catValu>22</catValu>
+    <labl>Unemp, new worker</labl>
+  </catgry>
+  <catgry>
+    <catValu>30</catValu>
+    <labl>Not in Labor Force</labl>
+  </catgry>
+  <catgry>
+    <catValu>31</catValu>
+    <labl>NILF, housework</labl>
+  </catgry>
+  <catgry>
+    <catValu>32</catValu>
+    <labl>NILF, unable to work</labl>
+  </catgry>
+  <catgry>
+    <catValu>33</catValu>
+    <labl>NILF, school</labl>
+  </catgry>
+  <catgry>
+    <catValu>34</catValu>
+    <labl>NILF, other</labl>
+  </catgry>
+  <catgry>
+    <catValu>99</catValu>
+    <labl>Unknown/Illegible</labl>
+  </catgry>
+  <concept vocab="IPUMS">Work Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="VETSTAT" dcml="0" files="ExtractData" intrvl="discrete" name="VETSTAT">
+  <location EndPos="72" StartPos="72" width="1"/>
+  <labl>Veteran status [general version]</labl>
+  <txt><![CDATA[Overview of Veteran Variables
+
+Information on veterans has been collected sporadically by the U.S. Census Bureau. In the census of 1840, a special volume was issued that gave the names, ages, and places of residence of pensioners of the Revolutionary War or other U.S. military service, but other veterans were not identified. An inquiry on veterans was undertaken in the census of 1890, and summary statistics on surviving veterans of the Union and Confederate Armies were published. A question on veteran status was also included in the census of 1910, but it referred only to veterans of the Civil War and was evidently omitted by many enumerators. The 1930, 1940, and 1950 censuses included more detailed veteran questions. The 1940 census also identified the spouses and children (under age 18) of veterans, as well as the mortality status of the veteran husbands/fathers.
+
+Data on veteran status in the 1940 and 1950 censuses were not satisfactory. Age and type-of-service entries were sometimes inconsistent, and non-reporting was relatively high. Furthermore, the totals did not correspond well with figures compiled by the Veterans Administration. The location of the question on the schedule may have been responsible for some of the errors. Because of these problems, the results of these original inquiries were not published.
+
+The wording of the question on veteran status for the 1990-2000 censuses, the ACS, and the PRCS was expanded from the veteran/not veteran question in 1980, to include questions on current active duty status and service or training in the military Reserves and the National Guard. The expansion was intended to clarify the appropriate response for persons in the armed forces and for persons who had served in the National Guard or military Reserve units only. VETSTAT includes both general and detailed versions to capture this detail, but the measurement of veteran status makes it impossible to obtain fully harmonized categories; see the comparability discussion below.
+
+Women were first included in veteran service questions in the 1980 census. In 1940, veteran status was extended to service in peacetime, as well as during wars and expeditions. Periods of service identified on the form changed over time, with 1980 on distinguishing between various time periods after the Korean War. The 1990 census added a question on total years of military service (see VETYRS). The 2000 census, the ACS, and the PRCS included a question on length of active-duty military service, which distinguished between those with less than two years versus two or more years of service.
+
+Definition of Veteran
+
+Prior to 1990, a "veteran" is defined as a civilian of a certain age (which varied by year) who had formerly served in the armed forces of the United States. Beginning in 1980, women were included in the definition. In the 1990-2000 censuses, the ACS, and the PRCS persons currently in the armed forces were defined as veterans.
+
+From 1940 on, "service" is defined as active duty in the United States Army, Air Force, Navy, Marine Corps, or Coast Guard for any length of time and at any place at home or abroad. For 1970 on, participation in the National Guard or military Reserves counts as "service" only for those called to active duty (e.g., during World War II, the Korean War, or the Persian Gulf War); training or attendance at weekly meetings is not "service." The 1990 census defined work as a Merchant Marine Seaman during World War II as active duty.
+
+Census forms differed in what they specifically excluded from the definition of military service. The following activities were never counted as military service: (1) civilian employment or volunteer activities for the Red Cross, USO, Public Health Service, or the War, Navy, and Defense Departments; 2) Merchant Marine employment outside of World War II; 3) service in the armed forces of another country.
+
+VETSTAT indicates whether individuals served in the military forces of the United States (Army, Navy, Air Force, Marine Corps, or Coast Guard) in time of war or peace. "Service" included active duty in these branches of the military for any length of time and at any place at home or abroad. 
+
+Since the census, ACS, and PRCS data on veterans are based on self-reported responses, they differ from data from other sources, such as administrative records of the Department of Defense. Data in the IPUMS on veterans may also differ from Veterans Administration data on the benefits-eligible population, since factors determining eligibility for veterans' benefits differ from the rules for classifying veterans in the census, the ACS, and the PRCS.
+
+Results based on the IPUMS data likewise differ from published reports by the Census Bureau. In the Bureau's printed tabulations, persons serving in at least one wartime period are classified by their most recent wartime service. In contrast, the dichotomous veteran variables in the IPUMS preserve information about all reported periods of service for each veteran. In the IPUMS, the responses were edited to eliminate inconsistencies between reported period(s) of service and the age of the person, and to cancel out reported combinations of periods containing unreasonable gaps (for example, a person could not serve during World War I and the Korean conflict without serving during World War II).]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>N/A</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Not a veteran</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Veteran</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Unknown</labl>
+  </catgry>
+  <concept vocab="IPUMS">Veteran Status Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="VETSTATD" dcml="0" files="ExtractData" intrvl="discrete" name="VETSTATD">
+  <location EndPos="74" StartPos="73" width="2"/>
+  <labl>Veteran status [detailed version]</labl>
+  <txt><![CDATA[Overview of Veteran Variables
+
+Information on veterans has been collected sporadically by the U.S. Census Bureau. In the census of 1840, a special volume was issued that gave the names, ages, and places of residence of pensioners of the Revolutionary War or other U.S. military service, but other veterans were not identified. An inquiry on veterans was undertaken in the census of 1890, and summary statistics on surviving veterans of the Union and Confederate Armies were published. A question on veteran status was also included in the census of 1910, but it referred only to veterans of the Civil War and was evidently omitted by many enumerators. The 1930, 1940, and 1950 censuses included more detailed veteran questions. The 1940 census also identified the spouses and children (under age 18) of veterans, as well as the mortality status of the veteran husbands/fathers.
+
+Data on veteran status in the 1940 and 1950 censuses were not satisfactory. Age and type-of-service entries were sometimes inconsistent, and non-reporting was relatively high. Furthermore, the totals did not correspond well with figures compiled by the Veterans Administration. The location of the question on the schedule may have been responsible for some of the errors. Because of these problems, the results of these original inquiries were not published.
+
+The wording of the question on veteran status for the 1990-2000 censuses, the ACS, and the PRCS was expanded from the veteran/not veteran question in 1980, to include questions on current active duty status and service or training in the military Reserves and the National Guard. The expansion was intended to clarify the appropriate response for persons in the armed forces and for persons who had served in the National Guard or military Reserve units only. VETSTAT includes both general and detailed versions to capture this detail, but the measurement of veteran status makes it impossible to obtain fully harmonized categories; see the comparability discussion below.
+
+Women were first included in veteran service questions in the 1980 census. In 1940, veteran status was extended to service in peacetime, as well as during wars and expeditions. Periods of service identified on the form changed over time, with 1980 on distinguishing between various time periods after the Korean War. The 1990 census added a question on total years of military service (see VETYRS). The 2000 census, the ACS, and the PRCS included a question on length of active-duty military service, which distinguished between those with less than two years versus two or more years of service.
+
+Definition of Veteran
+
+Prior to 1990, a "veteran" is defined as a civilian of a certain age (which varied by year) who had formerly served in the armed forces of the United States. Beginning in 1980, women were included in the definition. In the 1990-2000 censuses, the ACS, and the PRCS persons currently in the armed forces were defined as veterans.
+
+From 1940 on, "service" is defined as active duty in the United States Army, Air Force, Navy, Marine Corps, or Coast Guard for any length of time and at any place at home or abroad. For 1970 on, participation in the National Guard or military Reserves counts as "service" only for those called to active duty (e.g., during World War II, the Korean War, or the Persian Gulf War); training or attendance at weekly meetings is not "service." The 1990 census defined work as a Merchant Marine Seaman during World War II as active duty.
+
+Census forms differed in what they specifically excluded from the definition of military service. The following activities were never counted as military service: (1) civilian employment or volunteer activities for the Red Cross, USO, Public Health Service, or the War, Navy, and Defense Departments; 2) Merchant Marine employment outside of World War II; 3) service in the armed forces of another country.
+
+VETSTAT indicates whether individuals served in the military forces of the United States (Army, Navy, Air Force, Marine Corps, or Coast Guard) in time of war or peace. "Service" included active duty in these branches of the military for any length of time and at any place at home or abroad. 
+
+Since the census, ACS, and PRCS data on veterans are based on self-reported responses, they differ from data from other sources, such as administrative records of the Department of Defense. Data in the IPUMS on veterans may also differ from Veterans Administration data on the benefits-eligible population, since factors determining eligibility for veterans' benefits differ from the rules for classifying veterans in the census, the ACS, and the PRCS.
+
+Results based on the IPUMS data likewise differ from published reports by the Census Bureau. In the Bureau's printed tabulations, persons serving in at least one wartime period are classified by their most recent wartime service. In contrast, the dichotomous veteran variables in the IPUMS preserve information about all reported periods of service for each veteran. In the IPUMS, the responses were edited to eliminate inconsistencies between reported period(s) of service and the age of the person, and to cancel out reported combinations of periods containing unreasonable gaps (for example, a person could not serve during World War I and the Korean conflict without serving during World War II).]]></txt>
+  <catgry>
+    <catValu>00</catValu>
+    <labl>N/A</labl>
+  </catgry>
+  <catgry>
+    <catValu>10</catValu>
+    <labl>Not a veteran</labl>
+  </catgry>
+  <catgry>
+    <catValu>11</catValu>
+    <labl>No military service</labl>
+  </catgry>
+  <catgry>
+    <catValu>12</catValu>
+    <labl>Currently on active duty</labl>
+  </catgry>
+  <catgry>
+    <catValu>13</catValu>
+    <labl>Training for Reserves or National Guard only</labl>
+  </catgry>
+  <catgry>
+    <catValu>20</catValu>
+    <labl>Veteran</labl>
+  </catgry>
+  <catgry>
+    <catValu>21</catValu>
+    <labl>Veteran, on active duty prior to past year</labl>
+  </catgry>
+  <catgry>
+    <catValu>22</catValu>
+    <labl>Veteran, on active duty in past year</labl>
+  </catgry>
+  <catgry>
+    <catValu>23</catValu>
+    <labl>Veteran, on active duty in Reserves or National Guard only</labl>
+  </catgry>
+  <catgry>
+    <catValu>99</catValu>
+    <labl>Unknown</labl>
+  </catgry>
+  <concept vocab="IPUMS">Veteran Status Variables -- PERSON</concept>
   <varFormat schema="other" type="numeric"/>
 </var>
 </dataDscr>
